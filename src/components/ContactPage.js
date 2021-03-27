@@ -25,8 +25,8 @@ const ContactPage = () => {
                   
                     <h3 className="font-weight-bold mb-3 p-0"><strong>Contact me at: </strong></h3>
 
-                    <h4>Email: <strong>  danielnuwin@gmail.com </strong></h4>
-                    <h4>Instagram: <strong>  @danielnuwin</strong></h4>
+                    <h4>Email: <strong>  troydorman@gmail.com </strong></h4>
+                    <h4>Twitter: <strong>  @doorman_t</strong></h4>
                 </Col>
                 
             </Row>

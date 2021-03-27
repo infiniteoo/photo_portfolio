@@ -22,7 +22,7 @@ const AboutPage = () => {
                 <p className="text-center w-responsive mx-auto ">
                     Welcome to my portfolio!
                     <br />
-                    I'm a photographer, avid wanderer, and a software engineer.
+                    I'm a photographer, audio editor/producer, and a software engineer.
                        I was born in the Bay Area but spent most of my
                          growing up days in Southern California where I attended college. I've occassionally
                          bounced around the world traveling for a couple years here and there....rest to be continued!
@@ -60,7 +60,7 @@ const AboutPage = () => {
 
                         <h4 className="tech-info"> My Camera Gear</h4>
                         <ul style={{ marginLeft: '1em' }}>
-                            <li className="camera-info-list"> Canon 5D mark iii</li>
+                            <li className="camera-info-list"> Canon 5D mark iv</li>
                             {/* <li className="camera-info-list"> Canon 5D mark III</li> */}
                             <li className="camera-info-list"> Sigma 35mm f/1.4</li>
                             <li className="camera-info-list"> Tamron 24-70mm f/2.8</li>
