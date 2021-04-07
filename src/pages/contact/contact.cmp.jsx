@@ -50,13 +50,13 @@ class ContactPage extends React.Component {
 						<div className="contact-details"> 
             <h2>Contact information:</h2>
 							<p>
-								<FaEnvelope className="react-icons" /> : ilqnts@gmail.com
+								<FaEnvelope className="react-icons" /> : troydorman@gmail.com
 							</p>
 							<p>
-								<FaPhone className="react-icons" /> : +486756756
+								<FaPhone className="react-icons" /> : (763) 220-0042
               </p>
               <p>
-              <FaMapMarker className="react-icons"/> : Warsaw, Poland
+              <FaMapMarker className="react-icons"/> : Boise, Idaho
               </p>
 						</div>
 					</div>

@@ -29,7 +29,7 @@ class AboutPage extends React.Component {
         <div className={`about-text flex-c ${this.state.revield ? 'show' : ''}`}>
         <Waypoint onEnter={this.handleWaypoint} />
 					<h1 className="title">About me</h1>
-					<h2>I'm a photographer who loves a challange and exiting projects.</h2>
+					<h2>I'm a photographer, programmer, and audio engineer.</h2>
 					<p>
 						Five years ago I started doing photography on a professional level. I'm using high end equipment that gives
 						me full controll of the scenery and opportunity for more exiting pictures. I learned by observing the styles

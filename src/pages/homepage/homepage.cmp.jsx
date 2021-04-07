@@ -14,14 +14,14 @@ class HomePage extends React.Component {
 					id: 1,
 					title: 'Concerts',
 					subtitle: 'Live Music Experiences',
-					imageUrl: 'https://res.cloudinary.com/dp5m1hatx/image/upload/v1617744899/images/concert/Bobby_Raps_Amsterdam_Bar_042117_23_b7h0a9.jpg',
+					imageUrl: 'https://res.cloudinary.com/dp5m1hatx/image/upload/v1617744913/images/concert/Cold_War_Kids_First_Ave_028_s68ucx.jpg',
 					revield: false
 				},
 				{
 					id: 2,
 					title: 'Sports',
 					subtitle: 'Capturing the Action',
-					imageUrl: 'https://res.cloudinary.com/dp5m1hatx/image/upload/v1617744482/images/sports/twins_vs_indians_041717_021_hmad2s.jpg',
+					imageUrl: 'https://res.cloudinary.com/dp5m1hatx/image/upload/v1617744484/images/sports/twins_vs_indians_042017_033_c2xfi8.jpg',
 					revield: false
 				},
 				{
@@ -29,7 +29,7 @@ class HomePage extends React.Component {
 					title: 'People',
 					subtitle: 'Candid Shots of Real People',
 					imageUrl:
-						'https://res.cloudinary.com/dp5m1hatx/image/upload/v1617744447/images/people/Lewis_Del_Mar_7th_St_Entry_050317_16_ify9cu.jpg',
+						'https://res.cloudinary.com/dp5m1hatx/image/upload/v1617744404/images/events/May_Day_Parade_050717_035_tg8zxf.jpg',
 					revield: false
 				},
 				{

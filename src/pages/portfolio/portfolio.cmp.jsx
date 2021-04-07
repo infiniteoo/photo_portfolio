@@ -25,15 +25,17 @@ class PortfolioPage extends React.Component {
 	async componentDidMount() {
 		const { title } = this.props.match.params;
 		// Request for images by tag
-		await axios.get(`https://res.cloudinary.com/ilnphotography/image/list/${title}.json`).then((res) => {
-			this.setState({ gallery: res.data.resources });
+		await axios.get(`https://res.cloudinary.com/dp5m1hatx/image/list/${title}.json`).then((res) => {
+			console.log('res', res)
+		    this.setState({ gallery: res.data.resources });
 			this.createUrlArray();
+
 		});
 	}
 
 	createUrlArray = () => {
 		this.state.gallery.map((data) => {
-			let url = `https://res.cloudinary.com/ilnphotography/image/upload/v1577365202/${data.public_id}.jpg`;
+			let url = `https://res.cloudinary.com/dp5m1hatx/image/upload/v${data.version}/${data.public_id}.jpg`;
 			let imageData = {
 				src: url,
 				w: data.width,
@@ -68,7 +70,7 @@ class PortfolioPage extends React.Component {
 
 	render() {
 		return (
-			<CloudinaryContext cloudName="ilnphotography">
+			<CloudinaryContext cloudName="dp5m1hatx">
 				<PortfolioContainer>
 					{// check if array of items is ready
 					this.state.items.length > 0 ? (
@@ -88,7 +90,7 @@ class PortfolioPage extends React.Component {
 								<div
 									className="img"
 									style={{
-										backgroundImage: `url(${`https://res.cloudinary.com/ilnphotography/image/upload/v1577365202/${data.public_id}.jpg`})`
+										backgroundImage: `url(${`https://res.cloudinary.com/dp5m1hatx/image/upload/v${data.version}/${data.public_id}.jpg`})`
 									}}
 									onClick={()=>this.openPhotoSwipe(index)}
 								/>
