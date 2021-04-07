@@ -24,9 +24,9 @@ class Header extends React.Component {
 		return (
 				<div className="header">
 					<Link className="logo" to="/">
-            <div className="logo-title">ILIYAN</div>
+            <div className="logo-title">TROY</div>
             <div className="logo-line"></div>
-						<div className="logo-title">TSACHEV</div>
+						<div className="logo-title">DORMAN</div>
 					</Link>
           <BurgetButoon toggle={this.buttonToggle} nav={this.state.nav} />
 					<Nav toggle={this.buttonToggle} nav={this.state.nav}/>
