@@ -1,4 +1,4 @@
-#photo_portfolio    
+# photo_portfolio    
 
-##details coming soon...
+## details coming soon...
 
